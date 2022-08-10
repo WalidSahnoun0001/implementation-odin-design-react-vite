@@ -1,0 +1,34 @@
+.start {
+    background-color: #2B2D3D;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+.start p {
+    margin: 10px 0 25px 0;
+    font-size: 15px;
+}
+.start .btns button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.start .btns button.project {
+    background-color: #28ea89;
+    color: #fff;
+}
+.start .btns button.more {
+    background-color: #fff;
+    color: #28ea89;
+}
+.start .btns button.project:hover {
+    background-color: #fff;
+    color: #28ea89;
+}
+.start .btns button.more:hover {
+    color: #fff;
+    background-color: #28ea89;
+}

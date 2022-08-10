@@ -1,0 +1,6 @@
+.hero-section {
+    min-height: 100vh;
+    background-image: url('../assets/lifeguard-tower.jpg');
+    background-position: center;
+    background-size: cover;
+}

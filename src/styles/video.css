@@ -1,0 +1,27 @@
+.video-logic {
+    padding: 100px 0;
+    background-image: url('../assets/himalaya.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: -4px;
+}
+.video-logic h2 {
+    color: #fff;
+    word-spacing: 5px;
+}
+.video-logic button {
+    background-color: #28ea89;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: .3s ease-in-out;
+}
+.video-logic button:hover {
+    background-color: #eee;
+    color: #28ea89;
+}

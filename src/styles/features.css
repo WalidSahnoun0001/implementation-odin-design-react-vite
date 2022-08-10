@@ -1,0 +1,72 @@
+.features-logic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.features-logic .part {
+    width: 50%;
+    color: #333;
+}
+.features-logic .part .content {
+    position: relative;
+    left: 25%;
+}
+.features-logic .part h2 {
+    width: 50%;
+    line-height: 1.3;
+}
+.features-logic .part figure {
+    height: 100%;
+}
+.features-logic .part figure img {
+    width: 100%;
+}
+.features-logic .part .all-features {
+    margin: 50px 0;
+}
+.features-logic .part .all-features .feature {
+    display: flex;
+    align-items: center;
+    margin: 10px 40px;
+}
+.features-logic .part .all-features .feature .ic {
+    background-color: #28ea89;
+    color: #fff;
+    padding: 2px 3px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.features-logic .part .all-features .feature p {
+    font-size: 16px;
+    font-weight: 500;
+}
+.features-logic .part button {
+    background-color: #28ea89;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.features-logic .part button:hover {
+    background-color: #eee;
+    color: #28ea89;
+}
+
+@media (max-width: 575.98px) {
+    .features-logic {
+        display: block;
+    }
+    .features-logic .part {
+        width: 100%;
+    }
+    .features-logic .part .content {
+        padding: 20px 0;
+    }
+    .features-logic .part .all-features .feature {
+        margin: 10px 0;
+    }
+}

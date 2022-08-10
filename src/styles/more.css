@@ -1,0 +1,40 @@
+.more-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.more-info .half span img {
+    width: 150px;
+}
+.more-info .half p {
+    line-height: 1.7;
+    width: 50%;
+    margin-left: 20px;
+}
+.more-info .half .links {
+    margin: 20px 0;
+}
+.more-info .half .links i {
+    color: #2B2D3D;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.more-info .half .links i:hover {
+    color: #28ea89;
+}
+.more-info .half .site {
+    margin: 10px 0;
+}
+
+@media (max-width: 575.95px) {
+    .more-info .half .more-content {
+        text-align: center;
+    }
+    .more-info .half .more-content p {
+        width: 53%;
+        text-align: left;
+        margin: 20px auto;
+    }
+}
